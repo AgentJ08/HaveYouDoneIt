@@ -25,17 +25,18 @@ class AppNavbar extends Component {
 		return (
 			<div>
 				<Navbar color="dark" dark expand="sm" className="mb-5">
-				<Container>
-					<NavbarBrand href="/">HaveYouDoneIt</NavbarBrand>
-					<NavbarToggler onClick={this.toggle} />
-					<Collapse isOpen={this.state.isOpen} navbar>
-						<Nav className="ml-auto" navbar>
-							<NavItem>
-								<NavLink href="https://github.com/AgentJ08/HaveYouDoneIt">Github</NavLink>
-							</NavItem>
-						</Nav>
-					</Collapse>
-				</Container>
+					<Container>
+						<NavbarBrand href="/">HaveYouDoneIt</NavbarBrand>
+						<NavbarToggler onClick={this.toggle} />
+						<Collapse isOpen={this.state.isOpen} navbar>
+							<Nav className="ml-auto" navbar>
+								<NavItem>
+									<NavLink href="https://github.com/AgentJ08/HaveYouDoneIt">Github</NavLink>
+								</NavItem>
+							</Nav>
+						</Collapse>
+					</Container>
+				</Navbar>
 			</div>
 		);
 	}
