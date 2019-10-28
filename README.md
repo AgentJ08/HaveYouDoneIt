@@ -7,3 +7,4 @@ An interactive, CRUD, PWA todo list web app.
 - [ ] PWA
 - [ ] Session and Cache
 - [ ] User personalizable modes - Dark mode, Light mode, etc.
+- [ ] Add to Google Calender feature
