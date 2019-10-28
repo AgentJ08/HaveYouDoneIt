@@ -6,3 +6,4 @@ An interactive, CRUD, PWA todo list web app.
 - [ ] CRUD
 - [ ] PWA
 - [ ] Session and Cache
+- [ ] User personalizable modes - Dark mode, Light mode, etc.
